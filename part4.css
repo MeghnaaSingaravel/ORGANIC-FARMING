@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.navbar {
+    width: 100%;
+    background-color: teal;
+    overflow: auto;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: white;
+  }
+  
+  
+  .active {
+    background-color: yellow ;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  body{
+    font-family: 'Nerko One', cursive;
+    background-color: black ;
+    color: white;
+  }
+
+p{
+    font-size: 25px;
+}
+ 
+        
+.block{
+        display:flex;
+        flex-direction:row;
+        
+        
+}
+
+.block-text{
+    text-align: center
+}
+
+
+header{
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1012393745/thumb/1.jpg?ip=x480");
+  background-size: 100% 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+  }
+
+  h2{
+      color: white;
+      
+
+      font-size: 30px;
+  }
+
+  h1{
+font-size: 70px;
+color: black;
+text-align: center;
+  }
+
+  h1:hover {
+    cursor: pointer;
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {
+      color: #3a5311;
+    }
+    to {
+      color: #aef359;
+      font-size: 130px;
+    }
+  }
+
+  h4 {
+    display: none;
+color: #aef359;
+}
+
+h3{
+  text-align: center;
+  font-size: 40px;
+  color: turquoise;
+}
+
+footer{
+  font-size: 30px;
+  color: rgb(24, 240, 157);
+}
+
+
+h5{
+  font-size: 35px;
+}

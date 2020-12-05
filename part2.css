@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.navbar {
+    width: 100%;
+    background-color: teal;
+    overflow: auto;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: white;
+  }
+  
+  
+  .active {
+    background-color: yellow ;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  body{
+    font-family: 'Nerko One', cursive;
+    
+    
+  }
+
+
+ 
+        
+.block{
+        display:flex;
+        flex-direction:row;
+        font-size: 900px;
+        text-align: center
+        color: black;
+
+}
+}
+
+.block-text{
+    text-align: center
+}
+
+header{  
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("https://t3.ftcdn.net/jpg/03/00/26/82/240_F_300268259_sriGcjdOLKpNTpwn5gedgQzBi8EFpOcX.jpg");
+    }
+
+    *{
+        padding:0;
+        margin: 0;
+    }
+    
+    
+    
+    
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .movies{
+        flex-wrap: wrap;
+        min-height: 300px;
+        margin: 3% 14%;
+    
+    }
+    
+    .movie-text{
+        max-width: 400px;
+    }
+    
+    .flex-column{
+        display: flex ;
+        flex-direction: column ;
+        justify-content: space-evenly ;
+    }
+    
+    #header-text{
+        max-width: 500px;
+        min-height: 300px;
+        padding: 10% 0%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #play{
+        display: inline;
+    }
+    
+    .movie-image{
+    height: 240px;
+    width: 400px;
+    }
+    
+    .movie-image>img{
+        width: 100%;
+    }
+    
+    h1{
+        
+        font-size: 90px;
+    }
+    
+    p{
+    
+    font-size: 22px;
+    }
+    
+    .movie-text>p{
+    margin: 22px 0px;
+    }
+    
+   
+   
+    
+    #scroll{
+        position: relative;
+        animation: mymove 3s infinite;
+        animation-play-state: running;
+    }
+    
+    @keyframes mymove{
+        from{
+            top: 15px;
+        }
+        to{
+            top: 100px;
+        }
+    }
+    
+    @media onley screen (max-width:600px){
+        .wrap-reverse{
+            flex-wrap:wrap-reverse;
+        }
+        .container{
+            text-align: center;
+        }
+        .button{
+            margin: 0% 2%;
+        }
+    }
+    
+    h1:hover {
+        cursor: pointer;
+        animation: mymove 2s infinite;
+      }
+      
+      @keyframes mymove {
+        from {
+          color: #3a5311;
+        }
+        to {
+          color: #aef359;
+          font-size: 153px;
+        }
+      }
+      
+      footer{
+
+        color: black;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      
